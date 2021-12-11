@@ -31,7 +31,7 @@
 
 点击添加任务
 
-![image-20211211162229545](C:\Users\42796\AppData\Roaming\Typora\typora-user-images\image-20211211162229545.png)
+![image-20211211162229545](https://github.com/dandnaloveU/SignBox/blob/master/image/image-20211211162229545.png)
 
 【crontab】
 
@@ -39,7 +39,7 @@
 
 添加一行 `0 7 * * * /bin/python3 /root/SignBox/main.py`
 
-![image-20211211162626626](C:\Users\42796\AppData\Roaming\Typora\typora-user-images\image-20211211162626626.png)
+![image-20211211162626626](https://github.com/dandnaloveU/SignBox/blob/master/image/image-20211211162626626.png)
 
 ## GenShinSign原神社区自动签到
 
@@ -68,7 +68,7 @@ if (ask == true) {
 
   1.2**配置congfig.py**
 
-  ![image-20211211154048214](C:\Users\42796\AppData\Roaming\Typora\typora-user-images\image-20211211154048214.png)
+  ![image-20211211154048214](https://github.com/dandnaloveU/SignBox/blob/master/image/image-20211211154048214.png)
 
 - 将粘贴板复制到genshinCookies里面，`xxxx`部分即为所需复制的`值`。
 
@@ -80,11 +80,11 @@ if (ask == true) {
 
 1.1**获取cookie**
 
-![image-20211211160434179](C:\Users\42796\AppData\Roaming\Typora\typora-user-images\image-20211211160434179.png)
+![image-20211211160434179](https://github.com/dandnaloveU/SignBox/blob/master/image/image-20211211160434179.png)
 
 - 按`F12`，打开`开发者工具`，找到Application并点击
 - 再点击Cookie和https://www.bilibili.com/
 - 把bili_jct和SESSDATA的值复制config.py中的biliCookies内
 - `xxxx`部分即为所需复制的`值`，请对应复制进去
-- ![image-20211211161015767](C:\Users\42796\AppData\Roaming\Typora\typora-user-images\image-20211211161015767.png)
+- ![image-20211211161015767](https://github.com/dandnaloveU/SignBox/blob/master/image/image-20211211161015767.png)
 
