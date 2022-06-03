@@ -20,7 +20,7 @@ select_like=0 #投币时是否点赞，0：不点赞；1：点赞
 progress=0#上报观看视频任务观看进度。单位为秒，默认为0
 ##########################原神区设置##########################
 genshin=True#原神签到总开关
-genshinCookies= ['xxxxx']#哔哩哔哩账号cookie存放
+genshinCookies= ['xxxxx']#原神cookie存放
 ##########################v2ex区设置##########################
 v2ex=True#下次一定做
 v2exCookies= []#下次一定做
