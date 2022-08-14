@@ -2,7 +2,7 @@ from config import *
 import biliSign,genshinSign
 print(logo)
 print('''
-vesion:1.0
+vesion:1.1
 author:dandanya
 ''')
 if genshin==True:
