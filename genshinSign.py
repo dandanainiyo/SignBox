@@ -2,7 +2,7 @@ import requests,math,time,random,hashlib,json,string
 from config import *
 def getDs():
     md5 = hashlib.md5()
-    s = 'h8w582wxwgqvahcdkpvdhbh2w9casgfl'
+    s = '9nQiU3AV0rJSIBWgdynfoGMGKaklfbM7'
     t = str(int(time.time()))
     r = ''.join(random.sample(string.ascii_lowercase + string.digits, 6))
     c = MD5('salt=' + s + '&t=' + t + '&r=' + r)
@@ -61,7 +61,7 @@ def GenShinSign(userlist,cookie):
         'DS': getDs(),
         'Origin': 'https://webstatic.mihoyo.com',
         'x-rpc-device_id': 'F8459954-D990-496-A49B-7BA82C0FE3CB',
-        'x-rpc-app_version': '2.3.0',
+        'x-rpc-app_version': '2.34.1',
         'x-rpc-client_type': '5',
         "x-rpc-device_id": "F8459954-D990-4961-A49B-7BA82C0FE3CB",
         'User-Agent':'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) miHoYoBBS/2.3.0',
