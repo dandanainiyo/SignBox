@@ -72,8 +72,10 @@ def GenShinSign(userlist,cookie):
     print('开始签到...')
     req=requests.post(url='https://api-takumi.mihoyo.com/event/bbs_sign_reward/sign',headers=header,data=json.dumps(data, ensure_ascii=False))
     message = json.loads(req.text)
-    if message['retcode']==0:
+    if message['retcode']==0 and message["data"]["success"] == 0:
         print('签到成功！')
+    elif message['retcode']==0 and message["data"]["success"] != 0:
+        print('签到失败!账号风控,需要验证码')
     elif message['retcode']==-5003:
         print('签到失败!旅行者,你已经签到过了')
     else:
