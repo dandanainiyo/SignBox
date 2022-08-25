@@ -64,7 +64,7 @@ def GenShinSign(userlist,cookie):
         'x-rpc-app_version': '2.34.1',
         'x-rpc-client_type': '5',
         "x-rpc-device_id": "F8459954-D990-4961-A49B-7BA82C0FE3CB",
-        'User-Agent':'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) miHoYoBBS/2.3.0',
+        'User-Agent':'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) miHoYoBBS/2.34.1',
         'Referer':'https://webstatic.mihoyo.com/bbs/event/signin-ys/index.html?bbs_auth_required=true&act_id=e202009291139501&utm_source=bbs&utm_medium=mys&utm_campaign=icon',
         'Accept-Encoding': 'gzip, deflate, br',
         'cookie':cookie
